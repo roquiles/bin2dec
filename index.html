@@ -11,8 +11,13 @@
     <p class="intro">Enter the binary digits (max. 8) you want to convert.</p>
     <form action="/converting-to-decimal" method="post">
       <div>
-        <input type="text" id="binary" placeholder="Only binary digits" />
-        <input type="submit" value="Convert!" />
+        <input
+          type="text"
+          id="binary"
+          placeholder="Only binary digits"
+          maxlength="8"
+        />
+        <input type="submit" value="Convert!" class="btn" />
       </div>
     </form>
     <div>
