@@ -50,6 +50,7 @@ footer {
   font-size: 3em;
   font-weight: 800;
   color: rgb(180, 39, 39);
+  font-family: "IBM Plex Mono", monospace;
 }
 
 @media (max-height: 620px) {
