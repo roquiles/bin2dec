@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Bin2Dec</title>
   </head>
   <body>
     <h1 class="main-title">Bin2Dec</h1>
     <p class="intro">Enter the binary digits (max. 8) you want to convert.</p>
     <form action="/converting-to-decimal" method="post">
-      <div>
+      <div class="input-fields">
         <input
           type="text"
           id="binary"
@@ -22,7 +29,7 @@
     </form>
     <div>
       <p class="result-text">Here's your converted number:</p>
-      <p class="result"></p>
+      <p class="result">0</p>
     </div>
   </body>
   <footer>
