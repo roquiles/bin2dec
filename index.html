@@ -16,7 +16,8 @@
   <body>
     <h1 class="main-title">Bin2Dec</h1>
     <p class="intro">Enter the binary digits (max. 8) you want to convert.</p>
-    <form action="/converting-to-decimal" method="post">
+    <p class="hidden">Invalid digits. Type only 0's and 1's.</p>
+    <form method="get">
       <div class="input-fields">
         <input
           type="text"
@@ -24,13 +25,19 @@
           placeholder="Only binary digits"
           maxlength="8"
         />
-        <input type="submit" value="Convert!" class="btn" />
+        <input
+          type="button"
+          value="Convert!"
+          class="btn"
+          onclick="convertBin2Dec()"
+        />
       </div>
     </form>
     <div>
       <p class="result-text">Here's your converted number:</p>
-      <p class="result">0</p>
+      <p class="result"></p>
     </div>
+    <script src="script.js"></script>
   </body>
   <footer>
     <p class="credits">Developed by Roberta Quiles</p>

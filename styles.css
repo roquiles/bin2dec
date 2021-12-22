@@ -35,6 +35,10 @@ footer {
   border-radius: 0.2em;
 }
 
+.hidden {
+  display: none;
+}
+
 .btn {
   margin-top: 0.7em;
   margin-bottom: 1em;
