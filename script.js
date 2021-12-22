@@ -5,7 +5,7 @@ document.querySelector(".btn").addEventListener("click", convertBin2Dec);
 function convertBin2Dec() {
   const binary = document.getElementById("binary").value;
   let exp = binary.length - 1;
-  var result = 0;
+  let result = 0;
 
   for (const digit of binary) {
     if (digit === "1" || digit === "0") {
